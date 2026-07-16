@@ -1,3 +1,4 @@
+import MobileMenu from "./components/MobileMenu";
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -33,29 +34,27 @@ export default function RootLayout({
 
 <body className="min-h-full flex flex-col">
 
+  <header className="bg-slate-900 text-white p-4">
+    <div className="max-w-6xl mx-auto flex items-center justify-between">
 
-<div className="bg-slate-900 text-white p-4">
-<div className="max-w-6xl mx-auto flex items-center justify-between">
+      <Link href="/" className="font-bold text-xl">
+        <Image src="/logo.svg" alt="EPI" width={40} height={42} />
+      </Link>
 
-<Link href="/" className="font-bold text-xl">
-  <Image
- src="/logo.svg"
-  alt="EPI"
-  width={40}
-  height={42}
-  />
-  </Link>
+      <nav className="hidden md:flex gap-6 text-sm">
+        <Link href="/">Home</Link>
+        <Link href="/master-data-management">Master Data Management</Link>
+        <Link href="/operational-readiness">Operational Readiness</Link>
+        <Link href="/data-cleansing-governance">Data Governance</Link>
+        <Link href="/industries">Industries</Link>
+        <Link href="/about">About</Link>
+        <Link href="/contact">Contact</Link>
+      </nav>
 
-  <Link href="/">Home</Link>
-  <Link href="/master-data-management">Master Data</Link>
-  <Link href="/operational-readiness">Operational Readiness</Link>
-  <Link href="/data-cleansing-governance">Data Governance</Link>
-  <Link href="/industries">Industries</Link>
-  <Link href="/about">About</Link>
-  <Link href="/contact">Contact</Link>
-</div>
-</div>
+      <MobileMenu />
 
+    </div>
+  </header>
 
   {children}
 <footer className="bg-slate-900 text-white mt-auto">
