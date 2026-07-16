@@ -40,7 +40,7 @@ export default function RootLayout({
 <Link href="/" className="font-bold text-xl">
   <Image
  src="/logo.png"
-  alt="Enterprise Planning Industrial"
+  alt="EPI"
   width={40}
   height={40}
   />
