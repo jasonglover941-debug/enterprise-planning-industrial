@@ -39,10 +39,10 @@ export default function RootLayout({
 
 <Link href="/" className="font-bold text-xl">
   <Image
- src="/logo.png"
+ src="/logo.svg"
   alt="EPI"
   width={40}
-  height={40}
+  height={42}
   />
   </Link>
 
