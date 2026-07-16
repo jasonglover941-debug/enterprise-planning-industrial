@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -37,10 +38,14 @@ export default function RootLayout({
 <div className="max-w-6xl mx-auto flex items-center justify-between">
 
 <Link href="/" className="font-bold text-xl">
-  EPI
-</Link>
+  <Image
+ src="/logo.png"
+  alt="Enterprise Planning Industrial"
+  width={40}
+  height={40}
+  />
+  </Link>
 
-<div className="flex gap-6 text-sm">
   <Link href="/">Home</Link>
   <Link href="/master-data-management">Master Data</Link>
   <Link href="/operational-readiness">Operational Readiness</Link>
@@ -49,9 +54,6 @@ export default function RootLayout({
   <Link href="/about">About</Link>
   <Link href="/contact">Contact</Link>
 </div>
-
-
-  </div>
 </div>
 
 
