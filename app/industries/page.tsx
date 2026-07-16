@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Industries We Support | Enterprise Planning Industrial",
+  description:
+    "Supporting mining, manufacturing, utilities, infrastructure, energy and major capital projects with master data management, operational readiness and data governance services.",
+};
 
 export default function Industries() {
   return (

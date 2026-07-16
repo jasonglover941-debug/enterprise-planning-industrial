@@ -37,7 +37,7 @@ export default function RootLayout({
 <div className="max-w-6xl mx-auto flex items-center justify-between">
 
 <Link href="/" className="font-bold text-xl">
-  Enterprise Planning Industrial
+  EPI
 </Link>
 
 <div className="flex gap-6 text-sm">

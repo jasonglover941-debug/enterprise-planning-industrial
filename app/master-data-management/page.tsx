@@ -1,3 +1,12 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Master Data Management Services | Enterprise Planning Industrial",
+  description:
+    "Asset master data, material masters, equipment hierarchies, bills of materials and maintenance data management services for asset-intensive industries.",
+};
+
 export default function MasterDataManagement() {
   return (
     <main className="min-h-screen bg-white text-slate-800">

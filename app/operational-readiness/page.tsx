@@ -1,3 +1,12 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Operational Readiness Consulting | Enterprise Planning Industrial",
+  description:
+    "Operational readiness support, project handover planning, commissioning support and asset information development for capital projects.",
+};
+
 export default function OperationalReadiness() {
   return (
     <main className="min-h-screen bg-white text-slate-800">

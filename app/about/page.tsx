@@ -1,3 +1,12 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "About Enterprise Planning Industrial",
+  description:
+    "Learn about Enterprise Planning Industrial and our experience delivering master data management, operational readiness, data governance and enterprise asset management services.",
+};
+
 export default function About() {
   return (
     <main className="min-h-screen bg-white text-slate-800">

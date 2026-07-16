@@ -1,3 +1,12 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Contact Enterprise Planning Industrial",
+  description:
+    "Contact Enterprise Planning Industrial to discuss master data management, operational readiness, data governance and enterprise asset management services.",
+};
+
 export default function Contact() {
   return (
     <main className="min-h-screen bg-white text-slate-800">

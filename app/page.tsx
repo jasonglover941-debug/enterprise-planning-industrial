@@ -1,4 +1,15 @@
+
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title:
+    "Enterprise Planning Industrial | Master Data & Operational Readiness Specialists",
+  description:
+    "Master Data Management, Operational Readiness, Data Governance and Enterprise Asset Management services for asset-intensive industries.",
+};
+
+
 export default function Home() {
   const services = [
     {
@@ -94,6 +105,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service) => (       
             <Link
+            key={service.title}
               href={
                 service.title === "Master Data Management"
                   ? "/master-data-management"
@@ -106,7 +118,6 @@ export default function Home() {
             >
 
               <div
-                key={service.title}
                 className="bg-white rounded-xl p-6 shadow-sm border hover:shadow-lg transition cursor-pointer"
               >
                 <h3 className="text-xl font-semibold mb-3">

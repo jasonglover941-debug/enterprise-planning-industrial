@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Data Governance & Data Cleansing | Enterprise Planning Industrial",
+  description:
+    "Data governance, data cleansing, asset information quality improvement and master data governance services for asset-intensive industries.",
+};
 
 export default function DataCleansingGovernance() {
   return (
