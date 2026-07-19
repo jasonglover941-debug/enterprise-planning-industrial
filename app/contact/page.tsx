@@ -30,6 +30,7 @@ export default function Contact() {
           </p>
 
         </div>
+
       </section>
 
       {/* FORM */}

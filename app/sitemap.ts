@@ -24,6 +24,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: "https://enterpriseplanning.net/project-experience",
+      lastModified: new Date(),
+    },
+    {
       url: "https://enterpriseplanning.net/about",
       lastModified: new Date(),
     },

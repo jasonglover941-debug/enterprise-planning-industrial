@@ -140,6 +140,18 @@ export default function About() {
 
           </div>
 
+          <h2 className="text-3xl font-bold mt-12 mb-4">
+            Location
+          </h2>
+
+          <p className="text-slate-600 leading-relaxed">
+            Enterprise Planning Industrial is headquartered in Tasmania and supports
+            asset-intensive organisations throughout Australia. We provide services through
+            a combination of remote delivery and on-site consulting across mining,
+            manufacturing, infrastructure, utilities, energy and major project
+            environments.
+          </p>
+
         </div>
       </section>
 {/* FLEXIBLE DELIVERY */}

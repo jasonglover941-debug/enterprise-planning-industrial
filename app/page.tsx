@@ -67,6 +67,9 @@ export default function Home() {
             asset reliability and project handover outcomes.
           </p>
 
+          <p className="mt-6 text-cyan-400 font-semibold text-lg">
+            Based in Tasmania • Supporting asset-intensive industries Australia-wide
+          </p>  
 
           <Link
             href="/contact"
@@ -191,6 +194,33 @@ export default function Home() {
       </section>
 
 
+
+        {/* AUSTRALIA-WIDE SUPPORT */}
+        <section className="bg-slate-50 py-16">
+          <div className="max-w-6xl mx-auto px-6">
+            <h2 className="text-3xl font-bold mb-6">
+              Australia-Wide Support
+            </h2>
+
+            <p className="text-lg text-slate-600 leading-relaxed mb-4">
+              Enterprise Planning Industrial is based in Tasmania and provides consulting
+              services throughout Australia. We support clients remotely and on-site
+              across mining, manufacturing, infrastructure, utilities, energy and major
+              project environments.
+            </p>
+
+
+            <h3 className="text-xl font-semibold mb-3">
+              Service Areas
+            </h3>
+
+            <p className="text-lg text-slate-600 leading-relaxed mb-4">
+              Supporting organisations across Tasmania, Victoria, New South Wales,
+              Queensland, South Australia, Western Australia and the Northern Territory.
+            </p>
+
+          </div>
+        </section>
 
 
       {/* CONTACT */}
