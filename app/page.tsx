@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Enterprise Planning Industrial | Master Data & Operational Readiness Specialists",
+    "Enterprise Planning Industrial | Master Data & Operational Readiness",
   description:
     "Master Data Management, Operational Readiness, Data Governance and Enterprise Asset Management services for asset-intensive industries.",
 };
