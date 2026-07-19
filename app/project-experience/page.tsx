@@ -121,8 +121,8 @@ export default function ProjectExperience() {
             "Asset Information Management",
             "Maintenance Planning",
             "Shutdown Planning",
-            "SAP PM",
-            "SAP MM",
+            "SAP PM (Plant Maintenance)",
+            "SAP MM (Materials Management)",
             "SAP Trainer & Coach",
             "Reliability Engineering",
             "Stores & Materials Management",
@@ -169,8 +169,8 @@ export default function ProjectExperience() {
         "SAP Trainer & Coach",
         "Stores & Materials Management",
         "SAP Purchasing & Procurement",
-        "SAP PM (Plant Maintenance)",
-        "SAP MM (Materials Management)",
+        "SAP Plant Maintenance",
+        "SAP Materials Management",
       ].map((item) => (
         <div
           key={item}
