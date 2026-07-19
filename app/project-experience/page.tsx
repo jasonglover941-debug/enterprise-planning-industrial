@@ -170,7 +170,7 @@ export default function ProjectExperience() {
         "Stores & Materials Management",
         "SAP Purchasing & Procurement",
         "SAP PM (Plant Maintenance)",
-        "SAP MM Materials Management",
+        "SAP MM (Materials Management)",
       ].map((item) => (
         <div
           key={item}
