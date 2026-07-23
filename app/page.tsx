@@ -48,7 +48,7 @@ export default function Home() {
     <main className="min-h-screen bg-white text-slate-800">
       {/* HERO */}
       <section className="bg-slate-900 text-white">
-        <div className="max-w-6xl mx-auto px-6 py-24">
+        <div className="max-w-6xl mx-auto px-6 py-20">
           <p className="text-cyan-400 font-semibold uppercase tracking-wider">
             Master Data • Data Cleansing • Operational Readiness
           </p>

@@ -60,8 +60,11 @@ export default function ProjectExperience() {
     <main className="min-h-screen bg-white text-slate-800">
 
       {/* HERO */}
-      <section className="bg-slate-900 text-white">
-        <div className="max-w-6xl mx-auto px-6 py-20">
+      <section className="bg-slate-900 text-white py-24">
+        <div className="max-w-7xl mx-auto px-10">
+          <p className="text-cyan-400 font-semibold uppercase tracking-wide mb-6">
+            Project Experience • Operational Readiness • Asset Information
+          </p>
           <h1 className="text-5xl font-bold mb-6">
             Project Experience
           </h1>
