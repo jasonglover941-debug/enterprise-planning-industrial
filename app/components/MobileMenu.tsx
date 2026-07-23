@@ -1,10 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setOpen(false);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
 <div className="md:hidden">
@@ -23,6 +35,8 @@ export default function MobileMenu() {
           <Link href="/operational-readiness" onClick={() => setOpen(false)}>Operational Readiness</Link>
           <Link href="/data-cleansing-governance" onClick={() => setOpen(false)}>Data Governance</Link>
           <Link href="/industries" onClick={() => setOpen(false)}>Industries</Link>
+          <Link href="/project-experience" onClick={() => setOpen(false)}>Project Experience</Link>
+          <Link href="/case studies" onClick={() => setOpen(false)}>Case Studies</Link>
           <Link href="/about" onClick={() => setOpen(false)}>About</Link>
           <Link href="/contact" onClick={() => setOpen(false)}>Contact</Link>
         </div>

@@ -48,6 +48,7 @@ export default function RootLayout({
         <Link href="/data-cleansing-governance">Data Governance</Link>
         <Link href="/industries">Industries</Link>
         <Link href="/project-experience">Project Experience</Link>
+        <Link href="/case-studies">Case Studies</Link>
         <Link href="/about">About</Link>
         <Link href="/contact">Contact</Link>
       </nav>

@@ -35,5 +35,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://enterpriseplanning.net/contact",
       lastModified: new Date(),
     },
+    {
+      url: "https://enterpriseplanning.net/case-studies",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://enterpriseplanning.net/case-studies/mooka-ore-car-repair-shop",
+      lastModified: new Date(),
+    },  
   ];
 }
