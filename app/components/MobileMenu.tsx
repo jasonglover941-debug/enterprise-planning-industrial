@@ -37,6 +37,7 @@ export default function MobileMenu() {
           <Link href="/industries" onClick={() => setOpen(false)}>Industries</Link>
           <Link href="/project-experience" onClick={() => setOpen(false)}>Project Experience</Link>
           <Link href="/case-studies" onClick={() => setOpen(false)}>Case Studies</Link>
+          <Link href="/resources" onClick={() => setOpen(false)}>Resources</Link>
           <Link href="/about" onClick={() => setOpen(false)}>About</Link>
           <Link href="/contact" onClick={() => setOpen(false)}>Contact</Link>
         </div>

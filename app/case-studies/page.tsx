@@ -8,14 +8,44 @@ export const metadata: Metadata = {
 };
 
 export default function CaseStudiesPage() {
-  const caseStudies = [
-    {
-      title: "Mooka Ore Car Repair Shop",
-      href: "/case-studies/mooka-ore-car-repair-shop",
-      description:
-        "Operational readiness and asset information support for a major rail maintenance facility including asset data development, maintenance readiness and operational support documentation.",
-    },
-  ];
+const caseStudies = [
+  {
+    title: "BHP WAIO - Mooka Ore Car Repair Shop",
+    href: "/case-studies/mooka-ore-car-repair-shop",
+    description:
+      "Operational readiness and asset information support for a major rail maintenance facility including asset data development, maintenance readiness and operational support documentation.",
+  },
+  {
+    title: "Whitehaven Coal - Operational Readiness Support",
+    href: "/case-studies/whitehaven-operational-readiness",
+    description:
+      "Operational readiness support across dust suppression infrastructure, explosives yard expansion projects and mine dewatering systems supporting transition to operations and maintenance.",
+  },
+  {
+  title: "South32 TEMCO - Shutdown Planning & Maintenance Readiness",
+  href: "/case-studies/south32-temco-shutdown-planning",
+  description:
+    "Shutdown planning, maintenance planning and scheduling services supporting electrical, instrumentation, high voltage and extra high voltage systems within a major ferroalloy production environment.",
+},
+{
+  title: "Liberty Bell Bay - SAP PM, SAP MM & Master Data Management",
+  href: "/case-studies/liberty-bell-bay-master-data",
+  description:
+    "Master data management, maintenance planning and SAP PM / SAP MM improvement initiatives supporting asset information quality and maintenance system optimisation.",
+},
+{
+  title: "Simplot Australia - Operational Readiness & MEX EAM",
+  href: "/case-studies/simplot-operational-readiness",
+  description:
+    "Operational readiness, maintenance system readiness and asset information support within a major Australian food manufacturing environment using the MEX Enterprise Asset Management platform.",
+},
+{
+  title: "Hydro Tasmania - Maintenance Information Improvement",
+  href: "/case-studies/hydro-tasmania-maintenance-information",
+  description:
+    "Maintenance information improvement initiatives supporting maintenance plans, task lists, work instructions, metadata management and document control processes.",
+},
+];
 
   return (
     <>
